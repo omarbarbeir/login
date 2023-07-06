@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="dark">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="log.css">
+    <link rel="stylesheet" href="try.css">
+    <meta name="oop" content="oop">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <title>oop</title>
+</head>
+<body>
+
+  
+<header>
+  <h2 class="text-green-600 shadow-sm shadow-cyan-100">Creative</h2>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+    <button type="submit" id="logBtn">LogIn</button>
+  </ul>
+</header>
+
+<div id="log">
+  <div id="phot"></div>
+  <span id="icon">
+    <ion-icon id="icon-close" name="close"></ion-icon>
+  </span>
+  <div id="boxLog">
+    <h2 class="font-effect-emboss hover:animate-pulse">LogIn</h2>
+    <form>
+      <div id="inputs">
+        <input type="email" placeholder="Email">
+      </div>
+      <div id="inputs">
+        <input type="password" placeholder="Password">
+      </div>
+      <div id="check" class="font-effect-shadow-multiple">
+        <label><input type="checkbox">Remember Me</label>
+        <a href="#">Forgot Password</a>
+      </div>
+      <button class="font-effect-outline" type="submit" id="login">LogIn
+        <ion-icon id="person" name="person"></ion-icon>
+      </button>
+      <div id="reg" class="font-effect-outline">
+        <p>Do Not Have Account? <a href="#" id="reglink">Register</a></p>
+      </div>
+    </form>
+  </div>
+  <div id="regBox">
+    <h2 class="font-effect-emboss hover:animate-pulse duration-100">Registration</h2>
+    <form>
+      <div id="inputs">
+        <input type="text" placeholder="Username">
+      </div>
+      <div id="inputs">
+        <input type="email" placeholder="Email">
+      </div>
+      <div id="inputs">
+        <input type="password" placeholder="Password">
+      </div>
+      <div id="check" class="font-effect-shadow-multiple">
+        <label><input type="checkbox">I Agree To The Terms &Conditions</label>
+      </div>
+      <button class="font-effect-outline" type="submit" id="login">Register
+        <ion-icon id="person" name="person-add"></ion-icon>
+      </button>
+      <div id="reg" class="font-effect-outline">
+        <p>Already have account? <a href="#" id="loglink">LogIn</a></p>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+  <script src="log.js"></script>
+  <script src="app.json"></script>
+  <script src="تكليفات.js"></script>
+  <script src="./dist/src/index.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+</body>
+</html>
